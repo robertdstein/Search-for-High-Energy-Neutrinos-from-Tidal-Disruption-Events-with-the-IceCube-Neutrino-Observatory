@@ -1,0 +1,166 @@
+\documentclass[twocolumn, tighten, linenumbers]{aastex62}
+% * <robert.stein@desy.de> 2018-05-22T07:02:06.638Z:
+%
+% ^.
+
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{units}
+\usepackage{nicefrac}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{linkcolor=red,citecolor=green,filecolor=cyan,urlcolor=magenta}
+
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+\graphicspath{{./}{figures/}}
+
+
+\received{January 1, 2019}
+\revised{\today}
+\accepted{\today}
+\submitjournal{ApJ}
+\shorttitle{Sample article}
+\shortauthors{Stein et al.}
+\watermark{DRAFT}
+
+
+\begin{document}
+
+\title{Search for High-Energy Neutrinos from Tidal Disruption Events (TDEs) with the IceCube Neutrino Observatory}
+\correspondingauthor{Robert Stein}
+\email{robert.stein@desy.de}
+
+\author{Robert Stein}
+\affil{DESY Zeuthen, Platanenallee 6, 15738 Zeuthen, Germany}
+
+\begin{abstract}
+There has been much recent discussion of Tidal Disruption Events (TDEs) as potential contributors to the high-energy neutrino flux observed by IceCube, as well as possible acceleration sites for UHECRs. Here we present the first direct test of TDEs as hadronic accelerators, by searching for temporal and spatial correlation between TDEs and ten years of archival neutrino data from IceCube. We find no significant correlations for either jetted TDEs or non-jetted TDEs, constraining neutrino emission for these sources. 
+
+Under the assumption that jetted TDEs behave as standard candles, we find their isotropic-equivalent neutrino emission must be strictly less than $6 \times 10^{53} $ ergs.  Using the best-fit spectral index of the high-energy neutrino spectrum, $\gamma=-2.19$, we constrain the contribution of jetted TDEs to the neutrino flux to be less that X\%.  For a sample of reliably-identified non-jetted TDEs, we find robust standard-candle limit of $10^{51} $ ergs, and Y\% of the diffuse neutrino flux. Separate analyses of Swift J1644+57, Swift J2058+X, ASASSN-14li and Z yielded model-independent constraints on neutrino emission from these sources of $7 \times 10^{53} $, $2 \times 10^{54} $,  $3 \times 10^{51} $ and $2 \times 10^{51} $ ergs respectively.
+\end{abstract}
+
+\keywords{neutrino astronomy, IceCube, tidal disruption events}
+
+\section{Introduction} 
+\label{sec:introduction}
+
+Though IceCube discovered a diffuse astrophysical neutrino flux in 2013 \citep{Aartsen:2015knd, Aartsen:2013jdh}, the source of these high-energy neutrinos remain as yet undiscovered. The compatability of the spatial distribution of neutrinos with an isotropic flux suggests that they have a predominately extra-galactic origin. Untargeted all-sky searches for point sources or transient neutrino flares have not revealed any significant clustering of neutrinos in space or time, ruling out a neutrino flux dominated by a few nearby sources. Previous searches targeting specific source classes such as Gamma-Ray Bursts (GRBs), Fermi Blazars and Core-Collapse Supernovae have also not revealed a correlation with any of the astrophysical transient classes that have so far been tested. Despite recent evidence identifying that the blazar TXS 0506+56 as a likely neutrino source, general limits on cumulative neutrino emission from resolved Fermi blazars as a population leave the vast majority of the diffuse flux unaccounted for. It is clear that further source classes will be required to explain the IceCube observations.
+
+The production of high-energy neutrinos occurs through interactions of accelerated protons with either photons ($p\gamma$ interactions) or matter (pp interactions). To reach the neutrino energies in excess extending beyond 1PeV that are observed by IceCube, extreme cosmic accelerators are required. One such class of comsic accelerators that not yet been tested is the tidal disruption of stars by Supermassive Black Holes (SMBHs).
+
+Tidal Disruption Events (TDEs) occur when a star approaches an SMBH on a plunging orbit. As the star nears the SMBH, the tidal forces acting to distort the star will increase. At a critical distance, known as the tidal radius, the tidal forces will exceed the self-gravity binding the star together, and the star will then disintegrate. After the tidal disruption, roughly one half of the stellar debris is accreted onto the black hole, while the other half becomes unbound. In an idealised case, the fallback of the stellar debris onto the SMBH along parabolic orbits will produce a characteristic $t^{-\frac{5}{3}}$ power law lightcurve. 
+
+Shortly after the idea was first proposed \cite{rees1988}, data from X-Ray surveys such as ROSITA in the 1990s began to identify lightcurves consistent with these predictions. It was not until X that a TDE was discovered while still brightening, and was first disvoered by Optical/UV. Since then, high-cadence optical surveys such as PTF, ASASSN and PanStarrs began discovering so-called "Optical TDEs" in increasing number. Following the discovery of ASASSN-14li, which was observed in optical, UV and X-Ray and Radio.
+
+A peculiar transient initially detected by Swift-BAT as GRB110328A was quickly revealed to be the first TDE observed with a relativistic jet. Two further TDEs were found by Swift, with all three having jets pointing towards us. These jetted TDEs are ideal environments for particle acceleration, and are consequently promising sources of both cosmic rays and neutrinos. There has been increasing interest in TDEs as a possibly-dominant source of both Ultra-High Energy Cosmic Rays (UHECRs) and high-energy neutrinos (\cite{biehl18}, \cite{daifang16} \cite{murase16} \cite{winter17}). Constraints from radio observations suggest that most TDEs do not form such relativistic jets. Nonetheless, there has theoretical studies predicting neutrino emission from TDEs without observed jets, through models invoking relativistic outflows or choked-jets. 
+
+We present here the first test of correlation between TDEs and neutrinos, providing direct limits on the neutrino emission from both jetted and non-jetted TDEs. Our results significantly constrain models identifying jetted TDEs as a dominant source of cosmic rays.
+
+This paper is organized as follows: Section \ref{sec:data} describes the relevant data sets, followed by a discussion on the analysis methods in Section \ref{sec:AnalysisMethod} and the presentation of the results in section \ref{sec:Results}. Section \ref{sec:DiffuseNeutrinoFlux} presents the constraints on the contribution of both jetted and non-jetted TDEs to the diffuse neutrino flux. Section \ref{sec:Conclusion} summarizes the paper. Upper limits on the total energy released in neutrinos from individual TDEs can be found in the Appendix \ref{sec:UpperLimitsIndividualSources}.
+
+
+\section{The Data}
+\label{sec:data}
+IceCube is a cubic-kilometre-sized neutrino detector, located in the transparent ice of the 2.5\,km-thick glacier covering the bedrock of the geographical South Pole~\citep{Aartsen:2016nxy}.
+Neutrino-nucleon interactions in the ice are detected indirectly, via Cherenkov light emission from secondary particles, by 5160 photomultiplier tubes. While charged-current interactions of muon-neutrinos produce track-like signatures with good sub-degree angular resolution, both charged-current interactions of electron and tau neutrinos, and neutral current interactions, result in poor angular resolution. This analysis utilizes a selection of ten years of IceCube muon-track data that was optimised for point-source searches~\citep{Aartsen:2016oji}, with roughly 900,000 events from years 2008 to 2018.
+
+Four distinct TDE catalogues were compiled as part of this analysis, using data from the OpenTDECatalog, as well as data from the literature and public data from CRTS/ASASSN. From the starting point of all TDEs, two subsamples were created:
+
+\begin{itemize}
+	\item \textbf{Jetted TDEs} are X-Ray-bright TDEs which launched relativistic jets pointing towards the Earth. There are three jetted TDEs, and neutrino emission is most promising from this category
+	
+	\item \textbf{Obscured TDEs} are TDE candidates which occur in very dusty galaxies, and are only observed via reprocessed infra-red emission. It is unclear whether these objects are actually TDEs is unclear, with Changing-Look Active Galactic Nucleii (CLAGN) being one alternative explanation. Depending on the galaxy geometry, there would be a delay of unknown length between maximal TDE luminosity and the detected peak IR luminosity. The search window for neutrino emission from obscured TDEs is consequently much less constrained.
+\end{itemize}
+Of the remaining TDEs, attention was based to the possibility of source confusion. In general, to avoid contamination of the catalogue by missclassified AGN or SN, the remaining TDEs were further split into a golden sample of reliably-classified TDEs, and those with more ambiguous classification.
+\begin{itemize}
+	\item \textbf{Golden TDEs} are strong candidates where the TDE interpretation is supported by multiple spectra
+	\item \textbf{Silver TDEs} are all other candidates, where a TDE interpretation is either likely or not disfavoured.
+\end{itemize}
+
+For each jetted/gold/silver TDE, an individual search window was defined for neutrino emission, according to the following criteria:
+
+\begin{itemize}
+	\item For TDEs in which the light curve was observed when rising, the first measurement is taken as the window start.
+	
+	\item For TDEs without an observation during lightcurve rise, the last upper limit is taken as the window start.
+	
+	\item The maximum date was taken as the date on which the brightest TDE luminosity measurement was performed.
+	
+	\item The window extends from the defined window start to 100 days after the maximum date
+	
+\end{itemize}
+
+Applying these criteria gives a tailored search window for each TDE. To account for potential delay following neutrino emission, Obscured TDEs instead had a search window extending from 300 days before peak to 100 days after peak. The four catalogues, including search windows, are provided in the Appendix. It is the first such catalogue to contain time windows, and could be used in stacking analyses such as for gamma-ray emission.
+
+In addition, four TDEs were selected for individual analysis. Two of the three jetted TDEs, Swift J1644+57 and Swift J2058+X, were chosen due to their luminosity, as well as their position in the northern hemisphere where IceCube has the highest effective area. In addition, ASSASN-14li and XMMM were chosen as reliable non-jetted TDEs which were both nearby and bright. These four TDEs are the only ones that have been detected in radio observations, typically a tracer for relativistic particle acceleration.
+
+% 
+\section{Analysis Method}
+\label{sec:AnalysisMethod}
+For each catalogue, a stacking analysis was performed using the same method as \cite{stasik}. Typical stacking analyses traditionally assume that the source class is composed of standard candles producing a uniform flux, which is then scaled with the luminosity distance and convoluted with detector acceptance to calculate the number of neutrinos that each source contributes. While this method is optimal in the case that the sources are indeed standard candles, it is generally domiated by the closest catalogue sources. Under deviations from this case, for example if a selection bias leads to more distant sources being intrinsically brighter, the standard candle assumption is not appropriate. In this work, the number of signal neutrinos was instead fitted for each source individually, so that overall the Likelihood function is a sum over many sources with one spectral index.
+
+The signal-ness, $\mathcal{S}$, of each neutrino is evaluated as a product of energy, spatial and time PDF. The neutrinos are assumed to follow a power law $E^{-\gamma}$, where the spectral index $\gamma$ is a fit parameter. The distribution of neutrinos from a source is assumed to be a 2D gaussian with an energy-dependent angular error, while the temporal 'neutrino light curve' is taken as a uniform box function over the search window. These terms are convoluted with the energy-dependent detector acceptance, which also evolves between data-taking seasons. 
+
+As the IceCube datasets are dominated by atmospheric muon and muon-neutrino background, data-based PDFs used to evaluate the background-ness, $\mathcal{B}$,  of neutrinos. The energy and spatial PDFs are comprised of splines fitted to observed distribitions, while the background rate is assumed to be uniform within data-taking seasons.
+
+From the definitions of $\mathcal{S}$ and $\mathcal{B}$, we can define a test statistic (TS):
+\begin{equation*}
+\lambda = 2\times \log \left( \frac{\mathcal{L}(\hat{n}_\text{s}, \hat{\gamma})}{\mathcal{L}(0)} \right)
+\end{equation*}
+where $\mathcal{L}(\hat{n}_\text{s}, \hat{\gamma})$ corresponds to the maximum of the likelihood function and $\mathcal{L}(0)$ to the null hypothesis, i.e.~ the case of no spatial and temporal correlation of neutrinos and SNe~\citep{Braun:2008bg,Braun:2009aa}. 
+
+For a given IceCube dataset, randomly scrambling each neutrino's right ascension and arrival time removes any signal clusering. Performing a likelihood ratio test on many scrambled datasets gives an estimate of the background TS distribution, which is typically a sum of a $\delta $ -function and a $\chi^{2}$ distribution. The p-value of any TS value can be evalatuated as $p = \int_{\lambda_\text{exp}}^\infty \mathrm{d}\lambda$.
+
+For each of the four individual TDEs, searches were conducted for neutrino clustering in both time and space, as employed in the recent analysis of TXS 0506+56 \cite{txsps}. With the spatial and energy PDFs, all 'significant' neutrinos with $\frac{\mathcal{S}}{\mathcal{B}} \geq 1$ were identified. For each unique neutrino pair, a likelihood ratio test was performed as above assuming a uniform neutrino lightcurve between the pair arrival times. To account for the higher number of possible pairs with short periods relative to longer ones, a marganalisation term is introduced and the test statistic is defined as:
+
+\begin{equation*}
+\lambda = 2\times \log \left( \frac{\mathcal{L}(\hat{n}_\text{s}, \hat{\gamma})}{\mathcal{L}(0)} \frac{T_{pair}}{T_{window}}\right)
+\end{equation*}
+
+where $T_{pair}$ is the detector livetime between the two neutrino arrival times, and $T_{window}$ is the search window length in detector livetime.
+
+Of all tested pairs, that with the largest TS value is selected as the 'neutrino flare'. The significance of a TS value is again calculated from background-scrambled TS distributions. As can be seen in figure n, for a short neutrino flare lying within a larger search window, the threshold neutrino fluence for discovery is significantly lower than with a traditional time-integration method.
+
+\section{Results}
+\label{sec:Results}
+
+As the likelihood tests made no assumptions for the relative brightness of each source, our results can be used to constrain a variety of emission distributions. In the simplest case, we assume that each TDE is an equally neutrino-bright standard candle, and thus their contribution to the neutrino flux on Earth is simply proportional to $\frac{1}{D_{L}(Z)^{2}}$. This corresponds to Case 1 in \cite{daifang16}. It is also possible to place absolute limits on the combined fluence from each catalogue, by assuming that all emission arrives from the source in a catalogue for which IceCube has the smallest effective area. This results in model-independent upper limits on neutrino emission from all tested TDEs. A third interpretation of our results would be a limit on the absolute sum of neutrino energy distributed across the catalogue, by assuming that all neutrinos are produced by the catalogue source with the smallest expected standard-candle contribution. This also results in a model-independent upper limit on the mean neutrino emission of each tested source. As a consequence of fewer assumptions for the latter two cases, the derived limits are more general but also less stringent. 
+
+As the Golden catalogue candidates were selected based on their strong likelihood of being genuine TDEs, the corresponding limits derived for the entire non-jetted TDE population can be considered robust. However, given the likely sample contamination by misidentified Active Galactive Nucleii or Supernovae, we do not attempt to similarly extrapolate results from silver or obscured samples to non-jetted TDEs as a population.
+
+Final p-values for each TDE catalogue, as well the four individual TDEs, are sumarised in Table A. The most significant result was obtained for Z. However, as all values are consistent with those expected from background fluctuations, no discovery is claimed. Instead we can place upper limits on neutrino fluence from each catalogue and source. This is done in Figures 1 and 2 as a function of spectral index.
+
+\section{Diffuse Neutrino Flux}
+\label{sec:DiffuseNeutrinoFlux}
+
+By assuming a spectral index matching that measured by IceCube using high-energy throughgoing muon tracks, we can calculate limits on the contribution of both jetted and non-jetted TDEs to the diffuse high-energy neutrino flux. This is more appropriate for TDEs which are typically proposed to contribute in the TeV-PeV energy range, rather than the softer spectrum found through High-energy Starting Events cite (HESE). 
+
+
+\section{Conclusion}
+\label{sec:Conclusion}
+We have presented a search for neutrinos from certain types of CCSNe with IceCube. In a stacking analysis we correlated about 1000 optically observed SNe with about 700000 muon-track events recorded by IceCube. The standard stacking method was extended to allow for fitting of individual weights for each source, in order to account for expected variation in the neutrino flux from individual sources.
+%was improved by letting the weights float in the likelihood maximization process, which removes the model dependence and allows to move away from the standard candle assumption. 
+SNe type IIn, IIP and Ib/c were tested individually with various neutrino emission time models. No significant temporal and spatial correlation of neutrinos and the cataloged SNe was found, allowing us to set upper limits on the contribution of those SNe to the diffuse neutrino flux. 
+
+CCSNe of type IIn, IIP and Ib/c contribute less than $28\%$, $96\%$ and $13\%$ respectively to the diffuse neutrino flux at the $90\%$ confidence level, assuming an extrapolation of the diffuse neutrino spectrum to low energies following an unbroken power law with index -2.5.
+
+Upper limits on the total neutrino energy emitted by a single CSM interacting source are at levels comparable to model predictions by~\citet{Murase:2010cu} (see Fig. ~\ref{fig:SensModelsBoxSmall}) while model predictions from \citet{Zirakashvili:2015mua} are strongly disfavored. Note that the model prediction could easily be adjusted to lower neutrino flux predictions by assuming a lower CSM density or a lower kinetic SN energy. %The model \citep{Murase:2010cu} is intended to explore the potential neutrino production based on two prominent SN events. If less powerful SNe are assumed, the neutrino flux prediction will decrease accordingly.
+
+
+%deviation from background expectations was observed and results are given as upper limits which are comparable with model predictions. Furthermore, the expected diffuse neutrino flux was compared with current IceCube measurements, limiting the contribution of core-collapse supernovae to $28\%$, $96\%$ and $13\%$ at the $90\%$ confidence level for supernovae of type IIn, IIp and Ib/c respectively, assuming unbroken power laws. This paper limits the parameter space for neutrino models for core collapse supernovae since current models can be excluded.\\
+
+Improvements of the presented limits are expected in the near future with novel optical survey instruments such as the Zwicky Transient Factory \citep{2014htu..conf...27B} (TO BE REPLACED BY NEW REF) which will be able to undertake a high-cadence survey across a large fraction of the sky, providing SN catalogs with much greater completeness. In combination with next-generation neutrino telescopes, this will significantly boost the sensitivity of this type of analysis , allowing us to probe dimmer neutrino emitters and smaller contributions of CCSNe to the diffuse neutrino flux.
+
+\bibliography{Literature/MyLiteraturePaper} 
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\appendix
+
+\end{document}
+
+
