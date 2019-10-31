@@ -41,7 +41,7 @@
 \begin{abstract}
 There has been much recent discussion of Tidal Disruption Events (TDEs) as potential contributors to the high-energy neutrino flux observed by IceCube, as well as possible acceleration sites for UHECRs. Here we present the first direct test of TDEs as hadronic accelerators, by searching for temporal and spatial correlation between TDEs and ten years of archival neutrino data from IceCube. We find no significant correlations for either jetted TDEs or non-jetted TDEs, constraining neutrino emission for these sources. 
 
-Under the assumption that jetted TDEs behave as standard candles, we find their isotropic-equivalent neutrino emission must be strictly less than $6 \times 10^{53} $ ergs.  Using the best-fit spectral index of the high-energy neutrino spectrum, $\gamma=-2.19$, we constrain the contribution of jetted TDEs to the neutrino flux to be less that X\%.  For a sample of reliably-identified non-jetted TDEs, we find robust standard-candle limit of $10^{51} $ ergs, and Y\% of the diffuse neutrino flux. Separate analyses of Swift J1644+57, Swift J2058+X, ASASSN-14li and Z yielded model-independent constraints on neutrino emission from these sources of $7 \times 10^{53} $, $2 \times 10^{54} $,  $3 \times 10^{51} $ and $2 \times 10^{51} $ ergs respectively.
+Under the assumption that jetted TDEs behave as standard candles, we find their isotropic-equivalent neutrino emission must be strictly less than $6 \times 10^{53} $ ergs.  Using the best-fit spectral index of the high-energy neutrino spectrum, $\gamma=-2.5$, we strongly constrain the contribution of jetted TDEs to the neutrino flux to be less that 1\%.  For a sample of reliably-identified non-jetted TDEs, we find standard-candle limit of $10^{51} $ ergs, and 26\% of the diffuse neutrino flux. Separate analyses of Swift J1644+57, Swift J2058+X, ASASSN-14li and AT2018cow yielded individual constraints on neutrino emission from these sources of $7 \times 10^{53} $, $2 \times 10^{54} $,  $3 \times 10^{51} $ and $2 \times 10^{51} $ ergs respectively.
 \end{abstract}
 
 \keywords{neutrino astronomy, IceCube, tidal disruption events}
@@ -139,6 +139,30 @@ Final p-values for each TDE catalogue, as well the four individual TDEs, are sum
 \label{sec:DiffuseNeutrinoFlux}
 
 By assuming a spectral index matching that measured by IceCube using high-energy throughgoing muon tracks, we can calculate limits on the contribution of both jetted and non-jetted TDEs to the diffuse high-energy neutrino flux. This is more appropriate for TDEs which are typically proposed to contribute in the TeV-PeV energy range, rather than the softer spectrum found through High-energy Starting Events cite (HESE). 
+
+\begin{figure}[!ht]
+	\centering \includegraphics[width=0.45\textwidth]{figures/diffuse_flux_global_fit}
+	\caption{Limits on the contribution of jetted and non-jetted TDEs to the diffuse neutrino flux, assuming standard candle behaviour. The shaded bands represent uncertainty in local rate estimates.}
+	\label{fig:DiffuseFlux}
+\end{figure}
+
+\section{AT2018cow}
+
+
+The discovery of extraordinary transient AT2018cow was a further demonstration of the central importance of multi-messenger observations.  This fast, bright, blue transient prompted a comprehensive multi-messenger follow-up campaign. The observations were consistent with a nearby example of a recently-identified population of Fast Blue Optical Transients (FBOTs). 
+
+Shortly after the time of discovery, AT2018cow was thought to be a Broad-Lined type IC (IC-BL) supernova, and thus a member of the rare CCSN subclass associated with long GRBs and choked-jets. As many models predict that such SNe may be neutrino sources, an IceCube Fast Reponse Analysis was run on AT2018cow shortly after discovery CITE-FRA-ICRC. Within the context of a candidate choked-jet supernova, the IceCube search focussed on the period spanning the 3-day period from the last non-detection to the first detection, aiming to isolate the supernova explosion time at which the neutrino emission would be expected. Ultimately, an excess of neutrinos was found in this time period, with a significance of 1.8 $\sigma$, and the results of the search were published through the Astronomers Telegram network \cite{2018ATel11785....1B}. The excess itself consisted of a small number of signal-like neutrinos, which were considered significant owing to the small expected background for such a short search window.
+
+Later multi-wavelength observations of AT2018cow were not consistent with a traditional IC-BL SN, and the transient has since variously interpreted as a TDE, an extreme SN or a Magnetar \cite{Perley:2018oky}. In light of these developments, AT2018cow was re-analysed by IceCube in the context of a potential TDE classification. A dedicated search for neutrino clustering on timescales up to 130 days, extending from 30 days before peak to 100 days afterwards, was undertaken, and a small excess was found.
+
+Although the best-fit cluster from this search included the two signal-like neutrinos from the original IceCube analysis, when accounting for the expected fluctuations arising from background over the much longer 130 day search window, the significance of the excess was just 0.5 $\sigma$. The results are thus entirely consistent with expectations from atmospheric background, while not contradicting the original result published at the time. As such, no discovery is claimed and upper limits are accordingly derived (illustrated in Figure \ref{fig:At2018cow}). As before, uncertainty in both classification and rate estimates hinder attempts to constrain neutrino emission from FBOTs.
+
+\begin{figure}[!ht]
+	\centering \includegraphics[width=.45\textwidth]{figures/AT2018cow_limit_plot}
+	\caption{Limits on integrated neutrino emission from AT2018cow as a function of spectral index, assuming a 130 day window from MJD 58256.9 to MJD 58386.9}
+	\label{fig:At2018cow}
+\end{figure}
+
 
 
 \section{Conclusion}
