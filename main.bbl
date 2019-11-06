@@ -2,4 +2,45 @@
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\href{#1}{#1}}
 
+\bibitem[{Aartsen {et~al.}(2013)}]{Aartsen:2013jdh}
+Aartsen, M.~G., {et~al.} 2013, Science, 342, 1242856
+
+\bibitem[{Aartsen {et~al.}(2015)}]{Aartsen:2015knd}
+---. 2015, Astrophys. J., 809, 98
+
+\bibitem[{Aartsen {et~al.}(2017{\natexlab{a}})}]{Aartsen:2016nxy}
+---. 2017{\natexlab{a}}, JINST, 12, P03012
+
+\bibitem[{Aartsen {et~al.}(2017{\natexlab{b}})}]{Aartsen:2016oji}
+---. 2017{\natexlab{b}}, Astrophys. J., 835, 151
+
+\bibitem[{Aartsen {et~al.}(2018)}]{IceCube:2018cha}
+---. 2018, Science, 361, 147
+
+\bibitem[{Auchettl {et~al.}(2017)Auchettl, Guillochon, \&
+  Ramirez-Ruiz}]{Auchettl:2016qfa}
+Auchettl, K., Guillochon, J., \& Ramirez-Ruiz, E. 2017, Astrophys. J., 838, 149
+
+\bibitem[{Biehl {et~al.}(2018)Biehl, Boncioli, Lunardini, \&
+  Winter}]{Biehl:2017hnb}
+Biehl, D., Boncioli, D., Lunardini, C., \& Winter, W. 2018, Sci. Rep., 8, 10828
+
+\bibitem[{{Blaufuss}(2018)}]{2018ATel11785....1B}
+{Blaufuss}, E. 2018, The Astronomer's Telegram, 11785
+
+\bibitem[{Komossa(2015)}]{Komossa:2015qya}
+Komossa, S. 2015, JHEAp, 7, 148
+
+\bibitem[{Margutti {et~al.}(2019)}]{Margutti:2018rri}
+Margutti, R., {et~al.} 2019, Astrophys. J., 872, 18
+
+\bibitem[{Perley {et~al.}(2019)}]{Perley:2018oky}
+Perley, D.~A., {et~al.} 2019, Mon. Not. Roy. Astron. Soc., 484, 1031
+
+\bibitem[{Sun {et~al.}(2015)Sun, Zhang, \& Li}]{Sun:2015bda}
+Sun, H., Zhang, B., \& Li, Z. 2015, Astrophys. J., 812, 33
+
+\bibitem[{van Velzen(2018)}]{vanVelzen:2017qum}
+van Velzen, S. 2018, Astrophys. J., 852, 72
+
 \end{thebibliography}

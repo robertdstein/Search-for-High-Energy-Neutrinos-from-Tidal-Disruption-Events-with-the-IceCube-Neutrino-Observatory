@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.22)  1 NOV 2019 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.22)  6 NOV 2019 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,22 +589,6 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 49--49
  []
 
 
-Package natbib Warning: Citation `Aartsen:2016nxy' on page 1 undefined on input
- line 51.
-
-
-Package natbib Warning: Citation `Aartsen:2015knd' on page 1 undefined on input
- line 51.
-
-
-Package natbib Warning: Citation `Aartsen:2013jdh' on page 1 undefined on input
- line 51.
-
-
-Package natbib Warning: Citation `Aartsen:2016oji' on page 1 undefined on input
- line 51.
-
-
 Underfull \hbox (badness 2837) in paragraph at lines 51--52
 []\OT1/cmr/m/n/10 The Ice-Cube Neu-trino Ob-ser-va-tory is a cubic-
  []
@@ -613,10 +597,6 @@ Underfull \hbox (badness 2837) in paragraph at lines 51--52
 Underfull \hbox (badness 2591) in paragraph at lines 55--56
 []\OT1/cmr/m/n/10 The pro-duc-tion of high-energy neu-tri-nos oc-curs
  []
-
-
-LaTeX Warning: Reference `sec:UpperLimitsIndividualSources' on page 1 undefined
- on input line 57.
 
 
 Overfull \hbox (111.788pt too wide) has occurred while \output is active
@@ -629,145 +609,107 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
 
-Package natbib Warning: Citation `Komossa:2015qya' on page 2 undefined on input
- line 68.
-
-
-Package natbib Warning: Citation `Biehl:2017hnb' on page 2 undefined on input l
-ine 68.
-
-
-Package natbib Warning: Citation `vanVelzen:2017qum' on page 2 undefined on inp
-ut line 70.
-
-
-Package natbib Warning: Citation `Komossa:2015qya' on page 2 undefined on input
- line 70.
-
-
-Package natbib Warning: Citation `Auchettl:2016qfa' on page 2 undefined on inpu
-t line 70.
-
-
-Package natbib Warning: Citation `Auchettl:2016qfa' on page 2 undefined on inpu
-t line 72.
-
-
-Package natbib Warning: Citation `Aartsen:2016oji' on page 2 undefined on input
- line 77.
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 77--78
-\OT1/cmr/m/n/10 in-di-rectly, via Cherenkov light emis-sion from sec-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 82.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 
-Overfull \hbox (1.9839pt too wide) in paragraph at lines 97--98
+Overfull \hbox (1.9839pt too wide) in paragraph at lines 98--99
 []\OT1/cmr/m/n/10 For TDEs with-out an ob-ser-va-tion dur-ing lightcurve
  []
 
-[2]
 
-Package natbib Warning: Citation `stasik' on page 3 undefined on input line 112
+Package natbib Warning: Citation `stasik' on page 2 undefined on input line 113
 .
 
+[2]
 
 Package natbib Warning: Citation `Braun:2008bg' on page 3 undefined on input li
-ne 122.
+ne 126.
 
 
 Package natbib Warning: Citation `Braun:2009aa' on page 3 undefined on input li
-ne 122.
+ne 126.
+
+<figures/flare_vs_box_disc.jpg, id=84, 880.28876pt x 544.0325pt>
+File: figures/flare_vs_box_disc.jpg Graphic file (type jpg)
+<use figures/flare_vs_box_disc.jpg>
+Package pdftex.def Info: figures/flare_vs_box_disc.jpg  used on input line 141.
+
+(pdftex.def)             Requested size: 246.29417pt x 152.21184pt.
+
+Overfull \hbox (4.02765pt too wide) in paragraph at lines 141--142
+ [][] 
+ []
 
 
-Package natbib Warning: Citation `txsps' on page 3 undefined on input line 126.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 148.
 
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 167.
 
-Package natbib Warning: Citation `daifang16' on page 3 undefined on input line 
-139.
-
-[3]
-<figures/diffuse_flux_global_fit.pdf, id=54, 422.77951pt x 261.2921pt>
+[3 <./figures/flare_vs_box_disc.jpg>]
+<figures/gold_flux.jpg, id=100, 880.28876pt x 544.0325pt>
+File: figures/gold_flux.jpg Graphic file (type jpg)
+<use figures/gold_flux.jpg>
+Package pdftex.def Info: figures/gold_flux.jpg  used on input line 195.
+(pdftex.def)             Requested size: 230.90128pt x 142.6986pt.
+<figures/jetted_flux.jpg, id=101, 880.28876pt x 544.0325pt>
+File: figures/jetted_flux.jpg Graphic file (type jpg)
+<use figures/jetted_flux.jpg>
+Package pdftex.def Info: figures/jetted_flux.jpg  used on input line 201.
+(pdftex.def)             Requested size: 230.90128pt x 142.6986pt.
+ [4 <./figures/gold_flux.jpg> <./figures/jetted_flux.jpg>]
+<figures/diffuse_flux_global_fit.pdf, id=120, 422.77951pt x 261.2921pt>
 File: figures/diffuse_flux_global_fit.pdf Graphic file (type pdf)
 <use figures/diffuse_flux_global_fit.pdf>
 Package pdftex.def Info: figures/diffuse_flux_global_fit.pdf  used on input lin
-e 151.
+e 218.
 (pdftex.def)             Requested size: 230.90128pt x 142.70638pt.
-
-
-Package natbib Warning: Citation `2018ATel11785....1B' on page 4 undefined on i
-nput line 161.
-
-
-Package natbib Warning: Citation `Perley:2018oky' on page 4 undefined on input 
-line 163.
-
-<figures/AT2018cow_limit_plot.pdf, id=56, 422.77951pt x 261.2921pt>
+<figures/AT2018cow_limit_plot.pdf, id=129, 422.77951pt x 261.2921pt>
 File: figures/AT2018cow_limit_plot.pdf Graphic file (type pdf)
 <use figures/AT2018cow_limit_plot.pdf>
-Package pdftex.def Info: figures/AT2018cow_limit_plot.pdf  used on input line 1
-68.
+Package pdftex.def Info: figures/AT2018cow_limit_plot.pdf  used on input line 2
+37.
 (pdftex.def)             Requested size: 230.90128pt x 142.70638pt.
-[4 <./figures/diffuse_flux_global_fit.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 182.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 182.
+Package natbib Warning: Citation `2014htu..conf...27B' on page 5 undefined on i
+nput line 249.
+
+[5 <./figures/diffuse_flux_global_fit.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 250.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 250.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-
-Package natbib Warning: Citation `Murase:2010cu' on page 5 undefined on input l
-ine 183.
-
-
-LaTeX Warning: Reference `fig:SensModelsBoxSmall' on page 5 undefined on input 
-line 183.
-
-
-Package natbib Warning: Citation `Zirakashvili:2015mua' on page 5 undefined on 
-input line 183.
-
-
-Package natbib Warning: Citation `2014htu..conf...27B' on page 5 undefined on i
-nput line 188.
-
-(./main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 5.
-
-) [5 <./figures/AT2018cow_limit_plot.pdf>]
+(./main.bbl) [6 <./figures/AT2018cow_limit_plot.pdf>]
 
 Package natbib Warning: There were undefined citations.
 
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 195.
-
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 293.
  ) 
 Here is how much of TeX's memory you used:
- 9524 strings out of 492616
- 131204 string characters out of 6129481
- 287648 words of memory out of 5000000
- 13297 multiletter control sequences out of 15000+600000
- 15503 words of font info for 58 fonts, out of 8000000 for 9000
+ 9622 strings out of 492616
+ 133103 string characters out of 6129481
+ 287472 words of memory out of 5000000
+ 13365 multiletter control sequences out of 15000+600000
+ 15848 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,37p,1223b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,973b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
@@ -776,23 +718,27 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (6 pages, 273081 bytes).
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helve
+tic/uhvr8a.pfb>
+Output written on main.pdf (7 pages, 658797 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
